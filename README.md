@@ -17,30 +17,30 @@ The primary objective of this project is to demonstrate a controlled and ethical
 
 **IV. Overview of Program (Modular Design)**
 
-1. Wi-Fi Scanning Module:
+1. **Wi-Fi Scanning Module**:
 
-Purpose: Identifies and lists available Wi-Fi networks in the vicinity.
-Functionality: Utilizes scanning techniques to discover and present a list of accessible Wi-Fi networks.
+- Purpose: Identifies and lists available Wi-Fi networks in the vicinity.
+- Functionality: Utilizes scanning techniques to discover and present a list of accessible Wi-Fi networks.
 
-2. AP Spoofing Module:
+2. **AP Spoofing Module**:
 
-Purpose: Creates a deceptive Access Point (AP) to imitate a chosen Wi-Fi network.
-Functionality: Spoofs the identity of a selected Wi-Fi network, enticing devices to connect to the deceptive AP.
+- Purpose: Creates a deceptive Access Point (AP) to imitate a chosen Wi-Fi network.
+- Functionality: Spoofs the identity of a selected Wi-Fi network, enticing devices to connect to the deceptive AP.
 
-3. DNS Spoofing Module:
+3. **DNS Spoofing Module**:
 
-Purpose: Manipulates Domain Name System (DNS) settings to redirect traffic surreptitiously.
-Functionality: Intercepts DNS requests and provides fraudulent responses, redirecting users to specified destinations.
+- Purpose: Manipulates Domain Name System (DNS) settings to redirect traffic surreptitiously.
+- Functionality: Intercepts DNS requests and provides fraudulent responses, redirecting users to specified destinations.
 
-4. Social Engineering Module:
+4. **Social Engineering Module**:
 
-Purpose: Simulates a Google login page to trick users into revealing credentials.
-Functionality: Craftily presents a deceptive login interface, exploiting trust to capture username and password information.
+- Purpose: Simulates a Google login page to trick users into revealing credentials.
+- Functionality: Craftily presents a deceptive login interface, exploiting trust to capture username and password information.
 
-5. Data Storage Module (SD Card):
+5. **Data Storage Module (SD Card)**:
 
-Purpose: Securely stores captured credentials for later analysis.
-Functionality: Writes and reads data to and from an external SD card, ensuring the safe storage of acquired information.
+- Purpose: Securely stores captured credentials for later analysis.
+- Functionality: Writes and reads data to and from an external SD card, ensuring the safe storage of acquired information.
 
 **V. Requirements to Run**
 
