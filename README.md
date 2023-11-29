@@ -5,9 +5,11 @@ In the realm of wireless network security, the Raspberry Pi Pico emerges as a ve
 
 **II. Key Features**
 
-- Intrusion Detection System (IDS)
-- Web Interface for alerts
-- 
+- Wifi Scanning
+- Spoofing WiFi to an Access Point (AP)
+- DNS Spoofing
+- Social Engineer the Google Page 
+- Save Data to a SD Card (E.g. )
 
 **III. Objectives**
 
@@ -23,7 +25,13 @@ Our main goal was to successfully capture the client's credentials when logging 
 
 **VI. How to run the program?**
 
-
+Steps:
+1. Connect to Pico WH
+2. Scan for nearby WiFi
+3. Spoofed one of the scanned WiFi and act as an AP
+4. It will then lead to the WiFi Login page
+5. User will then choose to login via Gmail account
+6. The login credentials will then be stored in the SD Card
 
 **VII. Citations**
 
@@ -33,5 +41,8 @@ Our main goal was to successfully capture the client's credentials when logging 
 
 | Tasks  | Name |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Wifi Scanning  | Content Cell  |
+| Spoofing WiFi to an Access Point (AP)  | Content Cell  |
+| DNS Spoofing  | Content Cell  |
+| Social Engineer the Google Pag  | Content Cell  |
+| Save Data to a SD Card (E.g. )  | Content Cell  |
