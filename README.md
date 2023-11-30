@@ -69,8 +69,8 @@ Steps:
 
 | Tasks  | Name |
 | ------------- | ------------- |
-| Wifi Scanning  | Shafeek  |
+| Wifi Scanning  | Shafeek |
 | Spoofing WiFi to an Access Point (AP)  | Naushad  |
-| DNS Spoofing  | Zhi Yin  |
+| DNS Spoofing  | Zhi Yin |
 | Web Server | Jia  Yi |
-| Save Data to a SD Card (E.g. )  | Darshan  |
+| Save Data to a SD Card (E.g. Login Credentials of victims) | Darshan |
