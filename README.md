@@ -44,7 +44,7 @@ The primary objective of this project is to demonstrate a controlled and ethical
 
 **V. Requirements to Run**
 
-(LIBRARIES)
+- lwIP 
 
 **VI. How to run the program?**
 
@@ -58,7 +58,8 @@ Steps:
 
 **VII. Citations**
 
-
+1. https://github.com/LearnEmbeddedSystems/pico-w-webserver-template for the original code to set up a web server
+2. https://github.com/krzmaz/pico-w-webserver-example for the part on displaying the received IP address for the Pico W
 
 **VIII. Task Allocations**
 
@@ -67,5 +68,5 @@ Steps:
 | Wifi Scanning  | Content Cell  |
 | Spoofing WiFi to an Access Point (AP)  | Content Cell  |
 | DNS Spoofing  | Content Cell  |
-| Social Engineer the Google Pag  | Content Cell  |
+| Web Server | Jia  Yi |
 | Save Data to a SD Card (E.g. )  | Content Cell  |
