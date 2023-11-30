@@ -10,7 +10,6 @@
         <p>Temp: <!--#temp--> </p>
         <p>LED is: <!--#led--></p>
         <p|>List of SSIDs:</p>
-        <p>SSID is: CPH1607 </p>
         <p>SSID is: <!--#SSID1--></p>
         <p>SSID is: <!--#SSID2--></p>
         <p>SSID is: <!--#SSID3--></p>
