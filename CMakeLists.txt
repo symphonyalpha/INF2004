@@ -1,11 +1,18 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PROGRAM_NAME project)
+set(PROGRAM_NAME pico_w_webserver)
 set(PICO_BOARD pico_w)
 
 include(pico_sdk_import.cmake)
 
-project(project)
+project(pico_w_webserver)
+
+
+if (NOT PICO_NO_HARDWARE)
+    add_subdirectory(sd_card)
+    add_subdirectory(lib/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico/src)
+    # add_subdirectory(wifi)
+endif ()
 
 pico_sdk_init()
 
@@ -17,7 +24,10 @@ execute_process(COMMAND
 
 add_executable(${PROGRAM_NAME}
     main.c
-)
+    dhcpserver/dhcpserver.c
+    dnsserver/dnsserver.c
+    sd_card/hw_config.c
+) 
 
 target_include_directories(${PROGRAM_NAME} PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
@@ -28,6 +38,7 @@ target_link_libraries(${PROGRAM_NAME}
     pico_lwip_http
     pico_stdlib
     hardware_adc
+    FatFs_SPI
 )
 
 pico_enable_stdio_usb(${PROGRAM_NAME} TRUE)
