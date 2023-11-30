@@ -69,8 +69,8 @@ Steps:
 
 | Tasks  | Name |
 | ------------- | ------------- |
-| Wifi Scanning  | Content Cell  |
+| Wifi Scanning  | Shafeek  |
 | Spoofing WiFi to an Access Point (AP)  | Naushad  |
-| DNS Spoofing  | Content Cell  |
+| DNS Spoofing  | Zhi Yi  |
 | Web Server | Jia  Yi |
-| Save Data to a SD Card (E.g. )  | Content Cell  |
+| Save Data to a SD Card (E.g. )  | Darshan  |
