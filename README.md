@@ -9,7 +9,7 @@ In the realm of cybersecurity, the ability to understand and counter potential t
 - Spoofing WiFi to an Access Point (AP)
 - DNS Spoofing
 - Social Engineer the Google Page 
-- Save Data to a SD Card (E.g. )
+- Save Data to a SD Card (E.g. Login Credentials of victims)
 
 **III. Objectives**
 
@@ -44,29 +44,33 @@ The primary objective of this project is to demonstrate a controlled and ethical
 
 **V. Requirements to Run**
 
-- lwIP 
+- lwIP
+- no-OS-FatFS-SD-SDIO-SPI-RPi-Pico (https://github.com/carlk3/no-OS-FatFS-SD-SDIO-SPI-RPi-Pico)
 
 **VI. How to run the program?**
 
 Steps:
-1. Connect to Pico WH
+1. Start Web Server on PicoW.
 2. Scan for nearby WiFi
-3. Spoofed one of the scanned WiFi and act as an AP
-4. It will then lead to the WiFi Login page
+3. Select one of the scanned SSIDs to Spoof and act as an AP with that name.
+4. Any users connected to the network will be directed to login page.
 5. User will then choose to login via Gmail account
-6. The login credentials will then be stored in the SD Card
+6. The login credentials will then be stored in the SD Card.
 
 **VII. Citations**
 
 1. https://github.com/LearnEmbeddedSystems/pico-w-webserver-template for the original code to set up a web server
 2. https://github.com/krzmaz/pico-w-webserver-example for the part on displaying the received IP address for the Pico W
+3. [Pico-pi-examples](https://github.com/raspberrypi/pico-examples) [pico_w/wifi/access_point]
+4. HTML Pages were generated using ChatGPT and modified as needed.
+5. https://www.digikey.sg/en/maker/projects/raspberry-pi-pico-rp2040-sd-card-example-with-micropython-and-cc/e472c7f578734bfd96d437e68e670050
 
 **VIII. Task Allocations**
 
 | Tasks  | Name |
 | ------------- | ------------- |
 | Wifi Scanning  | Content Cell  |
-| Spoofing WiFi to an Access Point (AP)  | Content Cell  |
+| Spoofing WiFi to an Access Point (AP)  | Naushad  |
 | DNS Spoofing  | Content Cell  |
 | Web Server | Jia  Yi |
 | Save Data to a SD Card (E.g. )  | Content Cell  |
