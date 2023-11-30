@@ -71,6 +71,6 @@ Steps:
 | ------------- | ------------- |
 | Wifi Scanning  | Shafeek  |
 | Spoofing WiFi to an Access Point (AP)  | Naushad  |
-| DNS Spoofing  | Zhi Yi  |
+| DNS Spoofing  | Zhi Yin  |
 | Web Server | Jia  Yi |
 | Save Data to a SD Card (E.g. )  | Darshan  |
