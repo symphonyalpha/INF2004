@@ -1,0 +1,18 @@
+To make pico connect to Network run by you, 
+Go to main.c and edit ssid, pass and mode as required. 
+ssid = SSID Of Network
+pass = Password to connect to network
+mode = Authentication Of Network (Open/WPA/WPA2AES)
+Might need to restart pico once or twice as does not always connect successfully.
+
+To Enable dns spoofing, Run Program once and record down IP Address of picoW Web Server.
+Edit dnsserver.c to always return that IP to dns queries.
+
+e.g. if 192.168.43.208 is the IP address of the picoW, edit the following lines in dnsserver.c as shown below. 
+    *answer_ptr++ = 192; // Set the desired IP address
+    *answer_ptr++ = 168;
+    *answer_ptr++ = 43;
+    *answer_ptr++ = 208;
+
+To choose SSID to spoof, go to <ip address of picoW>/ssid.cgi?ssid=config.
+After chosen, Button 20 needs to be pressed on PicoMaker to start the spoofing!
