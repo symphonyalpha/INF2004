@@ -49,7 +49,6 @@ static int scan_result(void *env, const cyw43_ev_scan_result_t *result)
 
 void print_scan_results()
 {
-    printf("SSID: %s\n", "CPH1607");
     for (int i = 0; i < num_scan_results; ++i)
     {
         printf("SSID: %s\n", scan_results[i]);
