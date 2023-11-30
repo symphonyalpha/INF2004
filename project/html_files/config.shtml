@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>PicoWebserver</title> 
+    </head>
+    <body> <h1>Pico Webserver</h1>
+        <br>
+        <h2>This bit is SSI:</h2>
+        <p>Voltage: <!--#volt--></p>
+        <p>Temp: <!--#temp--> </p>
+        <p>LED is: <!--#led--></p>
+        <p|>List of SSIDs:</p>
+        <p>SSID is: <!--#SSID1--></p>
+        <p>SSID is: <!--#SSID2--></p>
+        <p>SSID is: <!--#SSID3--></p>
+        <p>SSID is: <!--#SSID4--></p>
+        <p>SSID is: <!--#SSID5--></p>
+        <p>SSID is: <!--#SSID6--></p>
+        <p>SSID is: <!--#SSID7--></p>
+        <p>SSID is: <!--#SSID8--></p>
+        <p>SSID is: <!--#SSID9--></p>
+        <p>SSID is: <!--#SSID10--></p>
+
+
+        <br>
+        <!-- <a href="/handle-ssid.cgi?ssid=#echo var="ssid" -->
+
+        <h2>This bit is CGI:</h2>
+        <form action="/ssid.cgi?" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="ssid" name="ssid" required placeholder="Copy and Paste SSID To Spoof">
+            <button type="submit">Submit</button>
+        </form>
+   </body>
+</html>
